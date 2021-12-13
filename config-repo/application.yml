@@ -1,6 +1,6 @@
 # Common configuration shared between all applications
 configserver:
-  name: Docker JHipster Registry
+  name: Docker JHipster Registry get config from our git hub
   status: Connected to the JHipster Registry running in Docker
 
 jhipster:
