@@ -1,6 +1,6 @@
 # Common configuration shared between all applications
 configserver:
-  name: Docker JHipster Registry get config from our git hub
+  name: Docker JHipster Registry
   status: Connected to the JHipster Registry running in Docker
 
 jhipster:
@@ -8,7 +8,7 @@ jhipster:
     authentication:
       jwt:
         # secret key which should be base64 encoded and changed in production
-        base64-secret: MzQ1NjUyZDdiMmJhYzVlYmJlNWEzYjRlMTZkYjA4N2QwNmRkMTU2MThmYzdiOGIxOTg4ZDU0NzVjNjUxYjY5ZDk2ODg5ZjJmNzgwOTZkYmY4MWZlZmNjZjg3YzE2ZTA1MGQ5NWMxZGE4OTE1MWMzZjVkNDU4NjUwYzczNGFmNjc=
+        base64-secret: MTQ1ZWM2ODNjOTQ1ZjgyOGFkYjJlNWNlMTU2ZmM1ZjRlMjcwYTJhZWJjYWIwNzI3YjVkMGYwZDUxYWQ4NGE5Yjg0MjNjYjNmOWMyY2JkZjcyNDIyZTBiZmFlMTA5MzBiNTI4OTk4Mjk1M2VhNzU0ZjBiOTNiNmM2MDk4YTQ1OTQ=
 
 eureka:
   client:
